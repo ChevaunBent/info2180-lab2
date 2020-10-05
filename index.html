@@ -11,21 +11,21 @@
 <body>
     <div class="container">
         <header>
-            <img src="PRO.png" alt="Image of Author">
-            <h1>Chevaun Bent Blog</h1>
+            <img class="imghead" src="PRO.png" alt="Image of Author">
+            <h1 class="h1head">Chevaun Bent Blog</h1>
             <p>An aspiring photographer and graphics designer</p>
         </header>
         <main>
             <!-- This will contain your blog posts -->
             <article>
                 <h2>Paragraph 1</h2>
-                <p>Date Posted: <span id="datetime"></span> by Chevaun Bent</p>
+                <p class="date1">Date Posted: <span id="datetime"></span> by Chevaun Bent</p>
 
                 <script>
                     var dt = new Date();
                     document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
                 </script>
-                <img src="img1.png" alt="Image displayed above first paragraph">
+                <img class="img1" src="img1.png" alt="Image displayed above first paragraph">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Fugit placeat aspernatur nulla possimus ut cum! Sed architecto
                     unde dolorem reprehenderit optio pariatur asperiores, nobis quasi
@@ -46,22 +46,27 @@
             <hr>
             <article>
                 <h2>Paragraph 2</h2>
-                <p>Date Posted: <span id="datetime"></span> by Victor Edabor</p>
+                <p class="date2">Date Posted: <span id="datetime"></span> by Victor Edabor</p>
 
                 <script>
                     var dt = new Date();
                     document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
                 </script>
-                <img src="img2.jpg" alt="Image displayed above second paragraph">
+                <img class="img2" src="img2.jpg" alt="Image displayed above second paragraph">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sunt,
                     labore excepturi modi rerum neque eius laboriosam fugiat ea delectus
                     praesentium qui maxime magni magnam enim id doloribus consequuntur
                     nobis ipsum ab, recusandae iusto perferendis! Impedit mollitia tenetur
                     placeat illo atque provident. Perspiciatis, quibusdam qui quae
                     blanditiis atque veritatis officiis?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores aut incidunt repellat, error
-                    repudiandae sapiente ratione officia! Assumenda exercitationem dolore ex, magnam porro sed
-                    voluptatum!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet facere sequi eos minus ipsum
+                    consectetur, laudantium praesentium nisi atque aut optio est. Perspiciatis accusantium culpa alias
+                    fugiat enim. Quae quam ab eveniet itaque. Consequuntur dolore fuga itaque? Aut molestias illum quia
+                    eius dolorem. Iste illum eaque tenetur omnis aliquid placeat debitis nesciunt eos eveniet sapiente
+                    dolorem aliquam corporis iusto, tempore ratione voluptatum culpa rerum doloribus ullam ipsa
+                    voluptate non modi quasi ea. Voluptatibus iusto repellendus odio beatae ad reprehenderit illo quod
+                    recusandae quasi tempore exercitationem corrupti, asperiores vitae placeat laudantium temporibus
+                    voluptate voluptates consequuntur, ullam provident culpa? Id, officia modi.</p>
             </article>
         </main>
         <aside>
