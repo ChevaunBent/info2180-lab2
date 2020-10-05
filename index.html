@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFO2180 Lab 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="PRO.png" alt="Image of Author">
+            <h1>Chevaun Bent Blog</h1>
+            <p>An aspiring photographer and graphics designer</p>
+        </header>
+        <main>
+            <!-- This will contain your blog posts -->
+            <article>
+                <h2>Paragraph 1</h2>
+                <p>Date Posted: <span id="datetime"></span> by Chevaun Bent</p>
+
+                <script>
+                    var dt = new Date();
+                    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                </script>
+                <img src="img1.png" alt="Image displayed above first paragraph">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit placeat aspernatur nulla possimus ut cum! Sed architecto
+                    unde dolorem reprehenderit optio pariatur asperiores, nobis quasi
+                    tempore! Exercitationem, cupiditate nostrum neque totam laudantium
+                    magni eveniet fugiat dolor sed eaque nulla sapiente eius assumenda
+                    perspiciatis dolores tempore labore voluptas! Maxime dolorem harum
+                    mollitia illo doloribus cupiditate magni totam tenetur, commodi quaerat
+                    labore quos qui rem ipsam assumenda quae magnam inventore omnis optio quod.
+                    Recusandae perferendis delectus, eveniet veniam deserunt rem excepturi
+                    assumenda quae nisi eos, voluptate ex, necessitatibus autem nihil deleniti.
+                    Animi odio voluptates in quos reiciendis sint quisquam culpa eius minus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In cum fugit ut architecto qui sint libero
+                    totam aut deserunt ea! Deserunt harum nesciunt minima impedit ad sunt modi accusantium dolorem
+                    soluta veritatis. Dolore quae rerum nobis, repellendus repellat ullam ad labore nam sed magnam!
+                    Rerum ea dolorem labore fuga consequuntur expedita odit nemo sint, quam beatae quibusdam esse velit
+                    dicta.</p>
+            </article>
+            <hr>
+            <article>
+                <h2>Paragraph 2</h2>
+                <p>Date Posted: <span id="datetime"></span> by Victor Edabor</p>
+
+                <script>
+                    var dt = new Date();
+                    document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+                </script>
+                <img src="img2.jpg" alt="Image displayed above second paragraph">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sunt,
+                    labore excepturi modi rerum neque eius laboriosam fugiat ea delectus
+                    praesentium qui maxime magni magnam enim id doloribus consequuntur
+                    nobis ipsum ab, recusandae iusto perferendis! Impedit mollitia tenetur
+                    placeat illo atque provident. Perspiciatis, quibusdam qui quae
+                    blanditiis atque veritatis officiis?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores aut incidunt repellat, error
+                    repudiandae sapiente ratione officia! Assumenda exercitationem dolore ex, magnam porro sed
+                    voluptatum!</p>
+            </article>
+        </main>
+        <aside>
+            <!-- This will be your sidebar -->
+            <div class="about">
+                <h3>About</h3>
+                <p>I am an asoiring Web Developper who enjoys graphics and photography.</p>
+            </div>
+            <h3>Social Media</h3>
+            <ul>
+                <li><a href="a">Instagram</li></a>
+                <li><a href="a">Facebook</li></a>
+                <li><a href="a">Twiter</li></a>
+            </ul>
+
+            <h3>Archives</h3>
+            <ul>
+                <li><a href="a">June 2020</li></a>
+                <li><a href="a">July 2020</li></a>
+                <li><a href="a">August 2020</li></a>
+            </ul>
+        </aside>
+        <footer>
+            <p>Copyright &copy; 2020, Chevaun Bent</p>
+        </footer>
+    </div>
+</body>
+
+</html>
